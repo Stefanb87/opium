@@ -2,7 +2,7 @@ $(document).ready(function() {
 
    
 
-    if (window.location.href.endsWith('index.html')) { 
+    if (window.location.href.endsWith('opium/')) { 
         setTimeout(function(){
             window.location.href = 'home.html';
         }, 5000);
